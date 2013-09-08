@@ -157,3 +157,6 @@ BOARD_SEPOLICY_UNION += \
 	wpa_supplicant.te
 
 BOARD_HARDWARE_CLASS := device/lge/mako/cmhw/
+
+# Preload bootanimation in to memory
+TARGET_BOOTANIMATION_PRELOAD := true
