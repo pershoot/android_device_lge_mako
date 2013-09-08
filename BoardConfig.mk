@@ -86,6 +86,10 @@ TARGET_RECOVERY_UI_LIB := librecovery_ui_mako
 
 TARGET_RECOVERY_FSTAB = device/lge/mako/fstab.mako
 RECOVERY_FSTAB_VERSION = 2
+
+# override recovery init.rc
+TARGET_RECOVERY_INITRC := device/lge/mako/recovery/init.rc
+
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 23068672 # 22M
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 23068672 # 22M
