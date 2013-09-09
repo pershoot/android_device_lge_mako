@@ -93,6 +93,9 @@ TARGET_RECOVERY_INITRC := device/lge/mako/recovery/init.rc
 # bigger font
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
+# custom keys
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/lge/mako/recovery/recovery_ui.c
+
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 23068672 # 22M
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 23068672 # 22M
